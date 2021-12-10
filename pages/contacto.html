@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ingrese un icono para mi pagina-->
+    <link rel="shortcut icon" href="icon/star_icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Contactanos</title>
+</head>
+<body>
+    <header class="header">
+        <div class="menu margen-interno">
+            <div class="logo">
+                <img src="../assets/icon/logo.ico" alt="logo" width="90%">
+            </div>
+            <div class="nav">
+
+                <img src="../assets/icon/Imagen_garrita.png" alt="garrita" width="8%">
+                <a href="../index.html" class="nav__hijo--pag"><span class="off">Inicio</span></a>
+                
+                <img src="../assets/icon/Imagen_garrita.png" alt="garrita" width="5%">            
+                <a href="../pages/productos.html" class="nav__hijo--menu"><span class="off">Productos</span></a>
+            
+                <img src="../assets/icon/Imagen_garrita.png" alt="garrita" width="5%">
+                <a href="../pages/galeria.html" class="nav__hijo--menu"><span class="off">Galeria</span></a>
+
+                <img src="../assets/icon/Imagen_garrita.png" alt="garrita" width="5%">
+                <a href="../pages/blog.html" class="nav__hijo--menu"><span class="off">Blog</span></a>
+
+                <img src="../assets/icon/Imagen_garrita.png" alt="garrita" width="5%">
+                <a href="../pages/contacto.html" class="nav__hijo--menu"><span class="off">Contactanos</span></a>
+
+
+            </div>
+            <div class="redes">
+
+                <a href="https://www.facebook.com/">
+                    <img src="../assets/icon/facebook_icon_circ.png" alt="fb" width="20%">
+                </a>
+
+                <a href="https://www.instagram.com/">
+                    <img src="../assets/icon/instagram_icon_circ.png" alt="ins" width="20%">
+                </a>
+                
+                <a href="mailto:pellitosdemivida@gmail.com">
+                    <img src="../assets/icon/email_icon_circ.png" alt="email" width="20%">
+                </a>
+                
+                <a href="https://web.whatsapp.com"></a>
+                    <img src="../assets/icon/whatsapp_icon_circ.png" alt="ws" width="20%">
+                </a>    
+
+
+
+
+            </div>
+        </div>
+        <div class="contenido-principal margen-interno">
+            <h1>Pellitos de Mi Vida
+                <p>Es una aventura inspirada en todos aquellos seres extraordinarios perrunos, que nos hacen la vida mas feliz y nos enseñan que el amor no tiene limites ni condiciones.</p>
+            </h1>
+            
+        </div>
+    </header>
+
+    <section class="contacto">
+        <h3 class="contacto contacto__tit">Contáctanos</h3>
+        <p class="contacto contacto_parr">Te invitamos a formar parte de esta gran familia perruna, síguenos en nuestras redes sociales.</p>
+
+        <div class="contacto_redes">
+            <img src="../assets/icon/facebook_icon_circ.png" alt="fb" width="6%">
+            <img src="../assets/icon/instagram_icon_circ.png" alt="ins" width="6%">
+            <img src="../assets/icon/email_icon_circ.png" alt="mail" width="6%">
+            <img src="../assets/icon/whatsapp_icon_circ.png" alt="ws" width="6%">
+        </div>
+    </section>
+    <form action="">
+        <fieldset class="contacto_fieldset">
+            <legend class="contacto_legend">Contactanos</legend>
+
+
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" placeholder="Aqui tu nombre y apellidos" requerired><br>
+                <label for="email">Email: </label>
+                <input type="text" name="email" placeholder="Aqui tu correo electronico" requerired><br>
+                <label for="tel">Telefono: </label>
+                <input type="text" name="tel" placeholder="Aqui tu telefono" requerired>
+
+
+            <!--cambie a checkbox para q se puedan seleccionar varias-->
+            <div>Que producto te gusto mas?</div>
+            <label for="bandanas">Bandanas</label>
+            <input type="checkbox" name="prod" value="BAN">
+            <label for="pellitoys">Pellitoys</label>
+            <input type="checkbox" name="prod" value="TOY">
+            <label for="sudadera">Sudadera</label>
+            <input type="checkbox" name="prod" value="SUD">
+            <label for="cubrebocas">Cubrebocas</label>
+            <input type="checkbox" name="prod" value="CUB">
+
+            <!--cambie a radio para q solo sea una opcion-->
+            <div>Que talla es tu Pellito</div>
+            <label for="chica">Chica</label>
+            <input type="radio" name="talla" value="ch">
+            <label for="mediana">Mediana</label>
+            <input type="radio" name="talla" value="med">
+            <label for="grande">Grande</label>
+            <input type="radio" name="talla" value="gde">
+            <label for="extragrande">Extra Grande</label>
+            <input type="radio" name="talla" value="ext">
+
+            <h3 class="contacto_legend">Dejanos tus comentarios</h3>
+            <textarea name="comentario" id="comentarios" cols="60" rows="10"></textarea><br>
+
+            <!--Botones para enviar registro o corregir informacion-->
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+
+        </fieldset>
+    </form>
+    
+
+
+    <footer class="footer margen-interno">
+        <nav class="pie">
+            <p>Todos los derechos reservados PELLITOS DE MI VIDA @ 2021</p>
+
+            <a href="https://www.facebook.com/">
+                <img src="../assets/icon/facebook_icon_circ.png" alt="fb" width="10%">
+            </a>
+
+            <a href="https://www.instagram.com/">
+                <img src="../assets/icon/instagram_icon_circ.png" alt="ins" width="10%">
+            </a>
+            
+            <a href="mailto:pellitosdemivida@gmail.com">
+                <img src="../assets/icon/email_icon_circ.png" alt="email" width="10%">
+            </a>
+            
+            <a href="https://web.whatsapp.com"></a>
+                <img src="../assets/icon/whatsapp_icon_circ.png" alt="ws" width="10%">
+            </a>
+
+        </nav>
+    </footer>
+
+</body>
+</html>
